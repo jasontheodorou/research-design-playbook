@@ -28,22 +28,57 @@ finds it, and leaves. Nobody is expected to read it through.
 
 Treating these as one thing is what made the previous build hard to navigate.
 
-## Definition of done for v1
+## First release: Katsura
 
-Small and real, not large and half-built.
+The first release is named **Katsura**. Its scope is fixed. It is not a target
+to grow into — it is the whole of the first release, and anything not listed
+here is a later release.
 
-- The main site, complete, at a length a new joiner will actually finish.
-- A handful of depth pages — enough to prove the surface works and to show
-  what a good one looks like. Not a complete method library.
-- Every page individually addressable and shareable.
-- Text, images and video editable without a developer.
-- Deployed, and used by at least one real new joiner.
+### Reader-facing product
 
-The exact page count is an open question. It should be the smallest number
-that is genuinely worth a designer's time.
+A home page, five main-journey pages and three depth pages. Nine pages total.
 
-**A complete main site with six depth pages beats a half-built main site with
-forty.**
+**Main journey**, read in order:
+
+1. Welcome
+2. Our purpose
+3. Why good design matters
+4. How we work
+5. Participation
+
+**Depth pages**, looked up as needed:
+
+1. Journey mapping
+2. Service blueprinting
+3. Co-design
+
+### Platform capability
+
+- Every page has a permanent, deep-linkable URL.
+- Payload administrator authentication.
+- Editors can change text, images and video.
+- Draft, preview and publish workflow.
+- Neutral token-based visual foundation.
+- Responsive layouts.
+- Keyboard accessibility.
+- Reduced-motion behaviour.
+- End-to-end deployment.
+
+### Explicitly excluded from Katsura
+
+- Reader accounts.
+- Progress tracking.
+- Role or account filtering.
+- Personalisation.
+- A complete method library.
+- Client-confidential content.
+
+These are excluded from this release. Some may never be built; see the
+out-of-scope list below, which is permanent rather than deferred.
+
+Reasoning, rejected alternatives, and the evidence that would justify
+expanding this scope are recorded in
+[`decisions/0003-katsura-release-scope.md`](decisions/0003-katsura-release-scope.md).
 
 ## Out of scope
 

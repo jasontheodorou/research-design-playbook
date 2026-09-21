@@ -85,7 +85,7 @@ None of these are guessed here. Each gets a decision record when it is decided.
 | **Component library** | Decides whether existing brand work ports at all. Needs a spike against server rendering, since component libraries vary widely in how much they force to the client. |
 | **Database host** | Several options are viable at this scale. Decide when provisioning. |
 | **Media storage** | Follows from the video decision. Local, object storage, or a managed media service. |
-| **Authentication** | The previous access gate is a hardcoded password compiled into the client bundle. It provides no meaningful security, and it contradicts the environment-variable behaviour that repository's documentation describes. This application has a server, so real authentication is now possible. Whether it is needed depends on whether anything sensitive ever sits behind it. |
+| **Reader access** | Payload administrator authentication is settled and in scope for Katsura; this row concerns readers only. The previous access gate is a hardcoded password compiled into the client bundle. It provides no meaningful security, and it contradicts the environment-variable behaviour that repository's documentation describes. This application has a server, so real authentication is now possible. Whether it is needed depends on whether anything sensitive ever sits behind it. |
 
 ## Not carried over
 
